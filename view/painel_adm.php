@@ -92,7 +92,7 @@ mysqli_close($strcon);
 echo "</table>";
 ?><br><br>
 
-<form name="Cadastr" action="painel_adm.php" method="POST">
+<form name="Cadastro1" action="painel_adm.php" method="POST">
 <label>Consulta a Banco de Dados completo:</label>
 <input type="submit" name="consulta-completa" value="Consultar">
 </form>
@@ -116,11 +116,11 @@ echo "</table>";
     </div>
     <div class="field">
         <label for="Endereço"> Seu endereco:</label>
-        <input type="text" id="Endereço" name="Endereco" placeholder="*Digite seu endereço*" >
+        <input type="text" id="Endereço" name="endereco" placeholder="*Digite seu endereço*" >
     </div>
     <div class="field">
         <label for="Digite seu CPF">CPF:</label>
-        <input type="text" id="CPF" name="CPF" placeholder="*Digite seu CPF*" >
+        <input type="text" id="CPF" name="cpf" placeholder="*Digite seu CPF*" >
     </div>
     
     
@@ -161,7 +161,7 @@ echo "</table>";
 <textarea name="mensagem" id="mensagem" placeholder="*Mensagem*" ></textarea><br>
 
 
-<input type="submit" value="alterar" name="acao"><br>
+<input type="submit" value="alterar" name="altera"><br>
 
 </form><br>
 <form action="Login.html">
@@ -171,6 +171,7 @@ echo "</table>";
 
 </div>
 
+<br><br><br><br><br>
 
 
 

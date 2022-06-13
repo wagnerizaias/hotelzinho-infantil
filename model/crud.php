@@ -108,8 +108,8 @@ class crud {
     
    }
 
-
-   public function alterar($cod_trecho, $nome, $endereco, $cpf, $telefone, $email, $senha, $confirma,$horario, $crianca, $nascimento, $mensagem){
+   
+   public function alterar($cod_trecho, $nome, $endereco, $cpf, $telefone, $email, $senha, $confirma, $horario, $crianca, $nascimento, $mensagem){
 
     $conn= conectar(); 
     
@@ -122,19 +122,19 @@ class crud {
 	      }else{		
 
 		
-          $result_livro = "UPDATE cadastro1 SET nome=' $nome', endereco='$endereco', cpf='$cpf', telefone='$telefone', email='$email', senha='$senha', confirma_senha='$confirma',horariao='$horario, crianca='$crianca', nascimento='$nascimento', mensagem='$mensagem' WHERE id = '$cod_trecho'";
+          $result_livro = "UPDATE cadastro1 SET nome=' $nome', endereco='$endereco', cpf='$cpf', telefone='$telefone', email='$email', senha='$senha', confirma_senha='$confirma',horario='$horario', crianca='$crianca', nascimento='$nascimento', mensagem='$mensagem' WHERE  id= '$cod_trecho'";
 
          mysqli_query($conn,$result_livro);
 
              if(mysqli_affected_rows($conn) != 0){
             echo "
 
-                 <script language='javascript' type='text/javascript'>alert('Cadastro alterado com sucesso!');window.location.href='../View/painel.php'</script>";
+                 <script language='javascript' type='text/javascript'>alert('Cadastro alterado com sucesso!');window.location.href='../View/painel_adm.php'</script>";
                  
             
              }else{
                   echo " 
-                   <script language='javascript' type='text/javascript'>alert('Nao foi possivel alterar este trecho');window.location.href='../View/painel.php'</script>";
+                   <script language='javascript' type='text/javascript'>alert('Nao foi possivel alterar este trecho');window.location.href='../View/painel_adm.php'</script>";
                      
                   
                      

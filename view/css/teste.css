@@ -1,0 +1,260 @@
+
+
+body { background-image: url(../imagem/Escola-Hotelzinho.png); color: rgb(133, 172, 199); 
+	background-position: center;
+	background-repeat: no-repeat;
+	}
+	
+	h1{text-align: center;
+	color:darkorchid;
+	}
+	
+	
+	h3{
+	color: rgb(138, 66, 119);
+	text-align: center;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	}
+	h2{
+	text-align: center;
+	color:fuchsia;
+	}
+	p{
+	text-align: center;
+	}
+	form{
+	text-align: center;
+	color: #222;
+	text-decoration: black;
+	text-transform: none;
+	font-family: Arial, Helvetica, sans-serif;
+	}
+	
+	main{
+	min-width: 20px;
+	padding: 800px;
+	margin: auto;
+	}
+	
+	img {border: 3px solid #ece4ec;
+		border-radius: 10%;
+	}
+	#hotelzinho{
+	color: fuchsia;
+	text-align: center;
+	margin:auto;
+	height: 100%;
+	width: 1000px;
+	}
+	section{
+	color: black;
+	}
+	*{
+	margin: 0px;
+	padding: 0px;
+	}
+	
+	body{
+	background-color:#f9f9f9;
+	}
+	
+	input{
+		border: 2px solid #f5c8f5;
+		border-radius: 8%;
+		text-align: center;
+	}
+	
+	textarea{ 
+		text-align: center;}
+
+	#icone {
+	cursor: pointer;
+	padding: 15px;
+	position: absolute;
+	z-index: 1;
+	}
+	
+	#check{
+	display: none;
+	background-color: #f00;
+	}
+	
+	.barra{
+	background-color: rgba(94, 175, 164, 0.048);
+	height: 100%;
+	width: 160px;
+	position: absolute;
+	left: -300px;
+	transition: all .2s linear;
+	}
+	
+	.barra .link{
+	list-style: none;
+	background-color: #494950;
+	}
+	
+	nav{
+	width: 80%;
+	position: absolute;
+	top: 60px;
+	}
+	nav a{
+	text-decoration: none;
+	}
+	
+	.link{
+	color: #f4f4f9;
+	font-family: 'Arial';
+	font-size: 12pt;
+	padding: 6px;
+	border-bottom: 2px solid #222;
+	transition:  all .2s linear;
+	opacity: 0;
+	margin-top: 200px;
+	}
+	.link:hover{
+	background-color: #050542;
+	}
+	
+	#check:checked ~ .barra nav a .link{
+	opacity: 1;
+	margin-top: 0;
+	transition-delay: .2s;
+	}
+	
+	#check:checked ~ .barra{
+	transform: translateX(300px);
+	}
+	
+	
+	
+	*{
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	}
+	
+	
+	a{
+	text-decoration: none;
+	}
+	
+	form{
+	border-radius: 10%;	
+	}
+	
+	#area{
+	border-radius: 10%;
+	background-image: url(../imagem/arco.jpg); color: rgb(133, 172, 199); 
+	background-position: center;
+	display: nome;
+	background-color:rgb(162, 227, 247); color: rgb(45, 98, 221); 
+	font-size: 14pt;
+	text-align: center;
+	font-family:Georgia, 'Times New Roman', Times, serif;
+	text-align: center;
+	position: relative;
+	margin: 0 auto;
+	top: 100%;
+	width: 380px;
+	height : 660px ;
+	border: 3px solid #f05af0;
+	}
+	
+	#area #formulario{
+	position: relative;
+	display: block;
+	}
+	
+	
+	#real{
+	border-radius: 10%;
+	background-image: url(../imagem/aaa.jpg); color: rgb(133, 172, 199);
+	background-position: center;
+	background-repeat:repeat-x;
+	display: nome;
+	background-color:rgb(162, 227, 247); color: rgb(45, 98, 221); 
+	font-size: 14pt;
+	text-align: center;
+	font-family:Georgia, 'Times New Roman', Times, serif;
+	position: relative;
+	margin: 0 auto;
+	top:100%;
+	width: 320px;
+	height: 520px;
+	border: 3px solid #f05af0;
+	}
+	
+	.holder {
+	display: flex;
+	justify-content: center;
+	}
+	.escola {
+	width: 200px;
+	margin: 10px;
+	position: relative;
+	text-align: center;
+	 }
+	.escola::after {
+	content: attr(data-title); 
+	position: absolute;
+	width: 100%;
+	bottom: -20px;
+	left: 0;
+	}
+	
+	#escola{
+	border-radius: 5%;
+	background-image: url(../imagem/coloo.jpg); color: rgb(179, 67, 173); 
+	background-position: center;
+	font-size: 16pt;
+	text-align: center;
+	font-family:Georgia, 'Times New Roman', Times, serif;
+	position: relative;
+	top:100%;
+	width: 480px;
+	height: 620px;
+	border: 3px solid #e97de9	
+	}
+	 
+	#escola1{
+	border-radius: 5%;
+	background-image: url(../imagem/a.jpg); color: rgb(179, 67, 173); 
+	background-position: center;
+	font-size: 16pt;
+	text-align: center;
+	font-family:Georgia, 'Times New Roman', Times, serif;
+	position: relative;
+	top:100%;
+	width: 480px;
+	height: 620px;
+	border: 3px solid #3b083b;	
+	}
+	
+	#rodape {
+	background-color: rgb(170, 75, 173);
+	border-top: 3px solid #3b083b;
+	text-align:left;
+	padding: 10px;
+	margin-block-start:auto ;
+	position: fixed;
+	bottom: 0;
+	width: 100%; 
+	}
+	
+	#wrapper {width:95%;  margin: 0 auto; }
+	
+	#header {width:100%; }
+	
+	#content {width:100%; }
+	
+	#sidebar {width:100%; }
+	
+	#footer {width:100%; }
+	
+	@media (min-width: 500px) {}
+	@media (min-width: 768px) {}
+	#wrapper {width:99%;  margin: 0 auto; }
+	#content {width:70%; float:left; }
+	#sidebar {width:0%; float:right; }
+	@media (min-width: 992px) {  }
